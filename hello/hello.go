@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-// Run the main Go code
+	"example.com/user/hello/morestrings"
+)
+
+// Run the main Go code.
 func main() {
-	fmt.Println("Hello, world.")
+	fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
 }
