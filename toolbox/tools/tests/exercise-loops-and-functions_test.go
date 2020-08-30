@@ -1,6 +1,10 @@
-package tools
+package tests
 
-import "testing"
+import (
+	"testing"
+
+	"waheedsworkbench.com/toolbox/tools"
+)
 
 func TestSqrt(t *testing.T) {
 	cases := []struct {
@@ -14,7 +18,7 @@ func TestSqrt(t *testing.T) {
 		{1, 1},
 	}
 	for _, c := range cases {
-		got := Sqrt(c.in)
+		got := tools.Sqrt(c.in)
 		if got != c.want {
 			t.Errorf("Sqrt(%f) == %f, want %f", c.in, got, c.want)
 		}

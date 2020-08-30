@@ -12,6 +12,8 @@ func main() {
 	//tools.ShowNumericConstants()
 	//tools.Iterate()
 	//tools.GetMultipleResults()
-	fmt.Println(tools.Sqrt(16))
+	//fmt.Println(tools.Sqrt(16))
+	//tools.SwitchThroughCases()
+	tools.DeferFunctionCall()
 	fmt.Println("Completed")
 }
