@@ -1,4 +1,5 @@
-package main
+// Package tools contains coding examples for practical usage of Go
+package tools
 
 import (
 	"fmt"
@@ -13,7 +14,8 @@ var (
 	z      complex128 = cmplx.Sqrt(-5 + 12i)
 )
 
-func main() {
+// DescribeTypes describes some type names and example values
+func DescribeTypes() {
 	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
 	fmt.Printf("Type: %T Value: %v\n", z, z)
