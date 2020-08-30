@@ -9,6 +9,9 @@ func TestSqrt(t *testing.T) {
 		{16, 4},
 		{9, 3},
 		{4, 2},
+		{3, 1.73205},
+		{2, 1.41421},
+		{1, 1},
 	}
 	for _, c := range cases {
 		got := Sqrt(c.in)
